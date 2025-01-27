@@ -58,6 +58,6 @@ def main_page():
                 # Custom error message
                 col.write('<p style="color: red; font-size: 16px;">Daily API used or Wrong API key</p>', unsafe_allow_html=True)
                 # Optionally log the error for debugging
-                #st.error(f"Error details: {str(e)}")
+                st.error(f"Error details: {str(e)}")
     else:
         col.write('<p style="white-space: nowrap;">Please enter a company name to fetch the sentiment.</p>', unsafe_allow_html=True)
