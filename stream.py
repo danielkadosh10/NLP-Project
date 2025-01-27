@@ -10,7 +10,7 @@ def main():
     main_page()
 
 if __name__ == "__main__":
-    nltk.download('punkt_tab')
-    nltk.download('vader_lexicon')
+    #nltk.download('punkt_tab')
+    #nltk.download('vader_lexicon')
     
     main()
