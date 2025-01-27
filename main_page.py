@@ -13,7 +13,7 @@ def main_page():
     )
     if api_key == "":
         api_key = st.secrets["api"]["key"]
-
+    print(api_key)
     buff, col, _ = st.columns([0.00001, 2, 7])  # Adjust ratios as needed
     company = col.text_input(
         "Search for company",
