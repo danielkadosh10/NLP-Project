@@ -12,7 +12,7 @@ def main_page():
         help="By default will use a secret API key with limited fetches"
     )
     if api_key == "":
-        api_key = "d51a3f8e69mshe3cab792ac9d64fp182af5jsn7b2aa6d0ea3a"
+        api_key = st.secrets["api_key"]
 
     buff, col, _ = st.columns([0.00001, 2, 7])  # Adjust ratios as needed
     company = col.text_input(
