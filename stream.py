@@ -1,5 +1,6 @@
 import streamlit as st
 from main_page import main_page
+import nltk
 
 def main():
     st.set_page_config(layout="wide", initial_sidebar_state="expanded",
